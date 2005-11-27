@@ -3,8 +3,8 @@
 %define		_sysconfdir	/etc/php
 %define		extensionsdir	%(php-config --extension-dir 2>/dev/null)
 
-Summary:	%{_modname} -
-Summary(pl):	%{_modname} -
+Summary:	%{_modname} - phpDocumentor-style DocBlock tokenizer
+Summary(pl):	%{_modname} - tokenizer DocBlock podobny do phpDocumentora
 Name:		php-pecl-%{_modname}
 Version:	0.1.0
 Release:	1
