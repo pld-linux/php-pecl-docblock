@@ -6,12 +6,12 @@
 Summary:	%{_modname} - phpDocumentor-style DocBlock tokenizer
 Summary(pl):	%{_modname} - tokenizer DocBlock podobny do phpDocumentora
 Name:		php-pecl-%{_modname}
-Version:	0.1.0
-Release:	2
+Version:	0.2.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pecl.php.net/get/%{_modname}-%{version}.tgz
-# Source0-md5:	1f1566badd670a3d2f095e2a9647f290
+# Source0-md5:	678a888b8110a3d31ddcedd03d93bb0c
 URL:		http://pecl.php.net/package/docblock/
 BuildRequires:	php-devel >= 3:5.0.0
 BuildRequires:	rpmbuild(macros) >= 1.254
