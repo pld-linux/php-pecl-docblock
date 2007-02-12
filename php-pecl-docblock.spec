@@ -1,7 +1,7 @@
 %define		_modname	docblock
 %define		_status		alpha
 Summary:	%{_modname} - phpDocumentor-style DocBlock tokenizer
-Summary(pl):	%{_modname} - tokenizer DocBlock podobny do phpDocumentora
+Summary(pl.UTF-8):   %{_modname} - tokenizer DocBlock podobny do phpDocumentora
 Name:		php-pecl-%{_modname}
 Version:	0.2.0
 Release:	2
@@ -38,7 +38,7 @@ docblock_token_name() takes a DOCBLOCK_* constant and returns its name
 
 In PECL status of this extension is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 Rozszerzenie to jest odpowienikiem rozszerzenia tokenizer. Przyjmuje
 blok komentarza podobny do:
 
@@ -49,16 +49,16 @@ blok komentarza podobny do:
 
 i przetwarza go w tokeny.
 
-Podstawow± funkcj± jest docblock_tokenize(), która jako argument
-przyjmuje string, a zwraca tablicê tablic (TOKEN, "token"). TOKEN to
-jedna ze sta³ych DOCBLOCK_*.
+PodstawowÄ… funkcjÄ… jest docblock_tokenize(), ktÃ³ra jako argument
+przyjmuje string, a zwraca tablicÄ™ tablic (TOKEN, "token"). TOKEN to
+jedna ze staÅ‚ych DOCBLOCK_*.
 
-docblock_tokenize() mo¿e tak¿e przyj±æ opcjonalnie drugi argument
-(typu boolean), która okresla czy funkcja ma wypisaæ nieistotne tokeny
+docblock_tokenize() moÅ¼e takÅ¼e przyjÄ…Ä‡ opcjonalnie drugi argument
+(typu boolean), ktÃ³ra okresla czy funkcja ma wypisaÄ‡ nieistotne tokeny
 takie jak /** * (znaczniki komentarza).
 
-docblock_token_name() jako argument przyjmuje sta³± DOCBLOCK_* i
-zwraca jej nazwê.
+docblock_token_name() jako argument przyjmuje staÅ‚Ä… DOCBLOCK_* i
+zwraca jej nazwÄ™.
 
 To rozszerzenie ma w PECL status: %{_status}.
 
