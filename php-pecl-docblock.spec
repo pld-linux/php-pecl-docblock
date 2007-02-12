@@ -1,7 +1,7 @@
 %define		_modname	docblock
 %define		_status		alpha
 Summary:	%{_modname} - phpDocumentor-style DocBlock tokenizer
-Summary(pl.UTF-8):   %{_modname} - tokenizer DocBlock podobny do phpDocumentora
+Summary(pl.UTF-8):	%{_modname} - tokenizer DocBlock podobny do phpDocumentora
 Name:		php-pecl-%{_modname}
 Version:	0.2.0
 Release:	2
